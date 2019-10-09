@@ -121,6 +121,8 @@ Simply:
 - Enter, Edit, and Save your code. Then exit nano.
 - Run the file with: node FILENAME.js
 
+<hr>
+
 1) Start by using the Read API, by calling table.read() in the Node.js
 
 #### Input
@@ -155,7 +157,7 @@ Found row:
 ```
 
 <br>
-
+<hr>
 
 2) Try it again, this time use a special "all" flag on the query. You can copy and paste into a new file, the old file, or you can just modify the new line, changing "keys: ['1']" to "keySet: {all: true}".
 
@@ -201,6 +203,7 @@ Found row:
 ```
 
 <br>
+<hr>
 
 
 3) Generic SQL-querying: you can query a database rather than a specific table, because the query might involve other tables (for instance, if you JOIN two tables together). For this, you can send a string containing your SQL query. Start by sending a simple query to retrieve all of the employees with a SQL query.
@@ -242,6 +245,7 @@ Found row:
 ```
 
 <br>
+<hr>
 
 4) Now, filter this down to only Bill Gates. To do that, you need to add a WHERE clause in your SQL statement
 
