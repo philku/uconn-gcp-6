@@ -78,7 +78,7 @@ nano enterData.js
 ```
 This will open up the file in an editor.
 
-c) Copy and Paste the following into the editor:
+3) Copy and Paste the following into the editor:
 ```javascript
 const spanner = require('@google-cloud/spanner')({
   projectId: 'your-project-id'
@@ -96,10 +96,10 @@ employees.insert([
   console.log('Saved data!', data);
 });
 ```
-3) Replace "your-project-id", "test-instance", "test-database", and "employees" with your values if they are different. 
-4) Save the file by pressing Ctrl+O, and agreeing to any following prompts for filename (press y, then enter).
-5) Exit nano by pressing Ctrl+X
-6) Run the file to input your data into the database. You should see "Saved data!" printed in the console. If it's not there, or if you see errors, double check your work.
+4) Replace "your-project-id", "test-instance", "test-database", and "employees" with your values if they are different. 
+5) Save the file by pressing Ctrl+O, and agreeing to any following prompts for filename (press y, then enter).
+6) Exit nano by pressing Ctrl+X
+7) Run the file to input your data into the database. You should see "Saved data!" printed in the console. If it's not there, or if you see errors, double check your work.
 ```
 node enterData.js
 ```
