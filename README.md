@@ -41,8 +41,8 @@ By Default, the Cloud Spanner API is disabled. You will be required to enable th
 
 ![New Instance Details](https://1.bp.blogspot.com/-4MsjkUNyzNc/XZpRcCFBE-I/AAAAAAAALk0/eqnOWolQGfoim5FBAMdzHVPAPB2dJWvfwCLcBGAsYHQ/s1600/5.JPG)
 
-3) Choose a name for the database such as "employees"
-4) Create some tables for your database by entereing the following DDL entry. This will create two fields: a unique ID (primary key) for the employee, and the employee’s name.
+3) Choose a name for the database such as "test-database", hit continue.
+4) Create some tables for your database by clicking the "edit as text" toggle, and entereing the following DDL (Database Definition Language) entry. This will create two fields: a unique ID (primary key) for the employee, and the employee’s name.
 
 ```DDL
 CREATE TABLE employees ( 
