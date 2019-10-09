@@ -154,6 +154,9 @@ Found row:
  - start_date: Wed Mar 31 1976 19:00:00 GMT-0500 (EST)
 ```
 
+<br>
+
+
 2) Try it again, this time use a special "all" flag on the query. You can copy and paste into a new file, the old file, or you can just modify the new line, changing "keys: ['1']" to "keySet: {all: true}".
 
 #### Input
@@ -197,6 +200,9 @@ Found row:
  - start_date: Thu Sep 03 1998 20:00:00 GMT-0400 (EDT)
 ```
 
+<br>
+
+
 3) Generic SQL-querying: you can query a database rather than a specific table, because the query might involve other tables (for instance, if you JOIN two tables together). For this, you can send a string containing your SQL query. Start by sending a simple query to retrieve all of the employees with a SQL query.
 
 #### Input
@@ -234,6 +240,8 @@ Found row:
  - name: Larry Page
  - start_date: Thu Sep 03 1998 20:00:00 GMT-0400 (EDT)
 ```
+
+<br>
 
 4) Now, filter this down to only Bill Gates. To do that, you need to add a WHERE clause in your SQL statement
 
